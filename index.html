@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MySite | Modern, Accessible, and Responsive Web Design</title>
+  <meta name="description" content="Explore MySite, where we craft elegant, responsive, and accessible websites using modern HTML5 and CSS best practices." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Avanti Kantumuchu" />
+  <link rel="canonical" href="https://your-username.github.io/CSCI6313_Final_Project/part1_webpage_with_css/index.html" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- HEADER + NAVIGATION -->
+  <header>
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
+      <h1 class="logo">MySite</h1>
+      <ul class="nav-links">
+        <li><a href="index.html" tabindex="0">Home</a></li>
+        <li><a href="#about" tabindex="0">About</a></li>
+        <li><a href="#features" tabindex="0">Features</a></li>
+        <li><a href="../part2_form_validation/form.html" tabindex="0">Change Password</a></li>
+        <li><a href="../part3_googlemap/map.html" tabindex="0">Explore Map</a></li>
+        <li><a href="#contact" tabindex="0">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" aria-label="Website introduction section">
+      <h2>Welcome to My Website</h2>
+      <p>Explore modern web design with clean layout and responsive style.</p>
+      <a href="#about" class="btn" role="button" tabindex="0">Learn More</a>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about" aria-label="About MySite">
+      <h2>About Us</h2>
+      <p>
+        We are passionate about crafting elegant, accessible, and mobile-friendly web experiences that adhere to WCAG and SEO best practices.
+      </p>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section id="features" class="features" aria-label="Website features and highlights">
+      <h2>Our Features</h2>
+      <div class="feature-grid">
+        <article>
+          <img src="images/feature1.jpg" alt="Devices showing responsive web design layout" />
+          <h3>Responsive Design</h3>
+          <p>Layouts adapt to any screen size for a great user experience.</p>
+        </article>
+
+        <article>
+          <img src="images/feature2.jpg" alt="Clean code and HTML5 structure illustration" />
+          <h3>Clean Code</h3>
+          <p>Semantic HTML5 and modular CSS make the site easy to maintain and understand.</p>
+        </article>
+
+        <article>
+          <img src="images/feature3.jpg" alt="Modern styled interface with good color contrast" />
+          <h3>Modern Style</h3>
+          <p>Balanced typography and color contrast meet WCAG accessibility standards.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="contact" role="contentinfo">
+    <p>&copy; 2025 MySite | All Rights Reserved</p>
+    <p>
+      <a href="mailto:info@mysite.com" tabindex="0">Contact Us</a> |
+      <a href="#top" tabindex="0">Back to Top</a>
+    </p>
+  </footer>
+</body>
+</html>
